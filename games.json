@@ -1,0 +1,6 @@
+{
+    "props": {
+          "n_val": 3,
+          "table_def": "CREATE TABLE games2 (date_begin timestamp not null, date_end timestamp not null, attendance sint64, away_team varchar, home_team varchar not null, city varchar not null, PRIMARY KEY((home_team, city, quantum(date_begin, 60, d)), home_team, city, date_begin))"
+    }
+}

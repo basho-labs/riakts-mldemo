@@ -1,0 +1,6 @@
+{
+  "props": {
+    "table_def":"CREATE TABLE sensor29 (daytime timestamp not null, count double, ramp varchar not null, city varchar not null, PRIMARY KEY((ramp, city, quantum(daytime, 60, d)), ramp, city, daytime))",
+    "n_val":3
+  }
+}
