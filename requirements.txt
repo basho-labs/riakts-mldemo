@@ -1,0 +1,6 @@
+pandas==0.16.2
+numpy==1.10.1
+matplotlib==1.5.0
+-e git+https://github.com/basho/riak-python-client@0bcebd711e1890d46bb47b6be531b7c6df806aa5#egg=riak-features_lrb_rts-367
+riak-pb==2.1.0.6
+ipython==3.1.0
