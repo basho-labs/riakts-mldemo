@@ -18,5 +18,5 @@ pip install -r requirements.txt
 
 Once you have all python modules installed start the demo:
 ```
-ipython notebook baseball.ipynb
+ipython notebook traffic-demo.ipynb
 ```
